@@ -1,11 +1,14 @@
 body{
-	padding-top: 72px;
-  padding-left: 1rem;
-	margin: 0;
-	background: rgb(15,1,35);
-	color: #faf9f5;
+  padding-top: 72px;
+  margin: 0;
+  background: rgb(15,1,35);
+  color: #faf9f5;
   font-family: "Roboto", sans-serif;
   text-align: justify;
+}
+
+main {
+  padding-left: 1rem;
 }
 
 nav {
@@ -171,7 +174,6 @@ div.trabalhos{
 }
 
 footer {
-  box-sizing: border-box;
   clear: both;
   width: auto;
   height: 5rem;
@@ -183,6 +185,7 @@ footer {
 }
 
 .img-footer{
+  padding-left: 1rem;
   position: relative;
   display: flex;
   justify-content: center;
